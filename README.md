@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# ⭐ Advice Generator App - TypeScript + React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📜 Descrição do Projeto
+É uma Single Page Application que permite aos usuários buscar conselhos aleatórias pela API. A cada clique no botão, é renderizado um conselho diferente. Veja qual te surpreenderá mais!
 
-Currently, two official plugins are available:
+## 👨‍💻 Funções da aplicação
+- Botão de clique no qual mudará a frase do conselho para uma nova
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Ferramentas utilizadas
+- TypeScript: Aumentar a tipagem do código e reduzir a quantidade de possíveis erros
+- ReactJS: Criar componentes e gerenciar o estado do app
+- - Hooks - Gerenciamento do estado
+- Axios: Requisições HTTP
 
-## Expanding the ESLint configuration
+## 🌪️ Dificuldades do projeto
+- TypeScript em geral: Mesmo tendo finalizado uma sessão de estudos sobre typeScript, confesso que é complicado entender todas as funcionalidades de elementos como "interface" e Tipagens de funções assíncronas. Mas, nada no qual não seja possível aprender. Me sinto feliz por ter conseguido entender maior parte desses conceitos nesse simples projeto.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💭 Possíveis atualizações futuras
+- Finalizar o readMe corretamente ✅
+- Adicionar botão de mudar a cor de fundo com Context API
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Como rodar o projeto
+Siga os passos abaixo para executar o projeto na sua máquina:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Pré requisitos
+- <strong><i>Node.js</i></strong>: Certifique-se de ter a versão LTS ou superior instalada.
+- <strong><i>Git</i></strong>: Para clonar o repositório.
+1. Abra o git, e execute os seguintes comandos
+2. git clone https://github.com/Seila-dev/typescript-advice-generator
+3. npm install
+4. npm run dev
+5. Clique para abrir o servidor local no navegador
