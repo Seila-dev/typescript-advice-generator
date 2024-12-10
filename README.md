@@ -1,32 +1,29 @@
 # ⭐ Advice Generator App - TypeScript + React
 
-## 📜 Descrição do Projeto
-É uma Single Page Application que permite aos usuários buscar conselhos aleatórias pela API. A cada clique no botão, é renderizado um conselho diferente. Veja qual te surpreenderá mais!
+## 📜 Project Description
+This is a Single Page Application that allows users to search for random advice via the API. With each click on the button, a different piece of advice is rendered. See which one will surprise you the most!
 
-## 👨‍💻 Funções da aplicação
-- Botão de clique no qual mudará a frase do conselho para uma nova
+## 👨‍💻 Application functions
+- Click button to change the advice phrase to a new one
 
-## 🛠️ Ferramentas utilizadas
-- TypeScript: Aumentar a tipagem do código e reduzir a quantidade de possíveis erros
-- ReactJS: Criar componentes e gerenciar o estado do app
-- - Hooks - Gerenciamento do estado
-- Axios: Requisições HTTP
+## 🛠️ Tools used
+- TypeScript: Increase code typing and reduce the number of possible errors
+- ReactJS: Create components and manage app state
+- Hooks - State management
+- Axios: HTTP requests
 
-## 🌪️ Dificuldades do projeto
-- TypeScript em geral: Mesmo tendo finalizado uma sessão de estudos sobre typeScript, confesso que é complicado entender todas as funcionalidades de elementos como "interface" e Tipagens de funções assíncronas. Mas, nada no qual não seja possível aprender. Me sinto feliz por ter conseguido entender maior parte desses conceitos nesse simples projeto.
+## 🌪️ Project difficulties
+- TypeScript in general: Even though I've just finished a study session on typeScript, I confess that it's complicated to understand all the functionalities of elements such as “interface” and asynchronous function typing. But it's nothing that can't be learned. I'm happy to have managed to understand most of these concepts in this simple project.
 
-## 💭 Possíveis atualizações futuras
-- Finalizar o readMe corretamente ✅
-- Adicionar botão de mudar a cor de fundo com Context API
+## 💭 Possible future updates
+- Finish the readMe correctly ✅
+- Add button to change background color with Context API
 
-## 🚀 Como rodar o projeto
-Siga os passos abaixo para executar o projeto na sua máquina:
+## 🚀 How to run the project
+Follow the steps below to run the project on your machine:
 
-### Pré requisitos
-- <strong><i>Node.js</i></strong>: Certifique-se de ter a versão LTS ou superior instalada.
-- <strong><i>Git</i></strong>: Para clonar o repositório.
-1. Abra o git, e execute os seguintes comandos
+- <strong><i>Node.js</i></strong>: Make sure you have the LTS version or higher installed.
+- <strong><i>Git</i></strong>: To clone the repository.
+1. Open git, and run the following commands
 2. git clone https://github.com/Seila-dev/typescript-advice-generator
 3. npm install
-4. npm run dev
-5. Clique para abrir o servidor local no navegador
